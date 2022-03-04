@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "nearby.composing.builds",
+    "module": "composing-builds",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nearby_plugin-1.0.0.jar",
+          "url": "nearby_plugin-1.0.0.jar",
+          "size": 9264,
+          "sha512": "01c8711e7d4f3b0ebac5cebce5dd6fd907936091b0cc19fba45d20e0ad9f26204f03c6eac45fe1731cdcea5aef4f31da689f5dfc64ea5c1a3b58d7545b60a3dc",
+          "sha256": "841ffc7cce7bd849ea04ac085c44cd598bbdeeed11495ff1970bd0f9f94cd73f",
+          "sha1": "4cc8509740bc7030dddb909f09ad15dead706847",
+          "md5": "d9d75d1d333d2ca60bcdf4652660ec30"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-gradle-plugin",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "nearby_plugin-1.0.0.jar",
+          "url": "nearby_plugin-1.0.0.jar",
+          "size": 9264,
+          "sha512": "01c8711e7d4f3b0ebac5cebce5dd6fd907936091b0cc19fba45d20e0ad9f26204f03c6eac45fe1731cdcea5aef4f31da689f5dfc64ea5c1a3b58d7545b60a3dc",
+          "sha256": "841ffc7cce7bd849ea04ac085c44cd598bbdeeed11495ff1970bd0f9f94cd73f",
+          "sha1": "4cc8509740bc7030dddb909f09ad15dead706847",
+          "md5": "d9d75d1d333d2ca60bcdf4652660ec30"
+        }
+      ]
+    }
+  ]
+}
