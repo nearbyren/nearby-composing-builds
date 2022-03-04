@@ -9,6 +9,7 @@ object AndroidX {
     const val percent = "androidx.percentlayout:percentlayout:1.0.0"
     const val support_annotations = "androidx.annotation:annotation:1.0.0"
     const val appcompat = "androidx.appcompat:appcompat:1.3.0-alpha01"
+    const val support_compat = "androidx.core:core:1.0.0"
     const val recyclerView = "androidx.recyclerview:recyclerview:1.2.0-alpha03"
     const val coreKtx = "androidx.core:core-ktx:1.2.0"
     const val support_v13 = "androidx.legacy:legacy-support-v13:1.0.0"
@@ -40,6 +41,8 @@ object AndroidX {
             "androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version"
         const val commonJava8 = "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
         const val service = "androidx.lifecycle:lifecycle-service:$lifecycle_version"
+        const val lcy_ext = "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+
     }
 
 
@@ -49,6 +52,8 @@ object AndroidX {
         private const val navigation_version = "2.1.0"
         const val fragmentKtx = "androidx.navigation:navigation-fragment-ktx:$navigation_version"
         const val uiKtx = "androidx.navigation:navigation-ui-ktx:$navigation_version"
+        const val kot_cor_and = "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.7"
+        const val kot_cor_cor = "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.7"
     }
 
 

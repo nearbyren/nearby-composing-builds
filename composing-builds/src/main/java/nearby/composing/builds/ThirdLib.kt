@@ -75,6 +75,7 @@ object ThirdLib {
         const val stetho = "com.facebook.stetho:stetho:${stetho_version}"
     }
 
+    const val nativecrashreport = "com.tencent.bugly:nativecrashreport:3.9.0"
     val crashwoodpecker = Crashwoodpecker
 
     object Crashwoodpecker {
