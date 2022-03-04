@@ -6,22 +6,31 @@ package nearby.composing.builds
  * @description:
  */
 object ThirdLib {
+    //toast
+    const val Toasty = "com.github.GrenderG:Toasty:1.2.8"
+    const val light = "io.github.tonnyl:light:1.0.0"
+    const val stateframelayout = "am.widget:stateframelayout:2.0.2"
+    const val sdk_panowidget = "com.google.vr:sdk-panowidget:1.80.0"
+
+    //功能引导指示图
+    const val MaterialIntroView = "com.github.iammert:MaterialIntroView:1.6.0"
+
+    //引导图
+    const val slidingtutorial = "com.cleveroad:slidingtutorial:0.9"
 
 
     val logger = Logger
 
-
     object Logger {
         private const val logger_version = "2.1.1"
-        const val fragment = "com.orhanobut:logger:${logger_version}"
+        const val logger = "com.orhanobut:logger:${logger_version}"
     }
 
     val timber = Timber
 
-
     object Timber {
         private const val timber_version = "4.7.1"
-        const val fragment = "com.jakewharton.timber:timber:${timber_version}"
+        const val timber = "com.jakewharton.timber:timber:${timber_version}"
     }
 
     val rxjava = Rxjava

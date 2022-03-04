@@ -14,7 +14,6 @@ object AndroidX {
     const val coreKtx = "androidx.core:core-ktx:1.2.0"
     const val support_v13 = "androidx.legacy:legacy-support-v13:1.0.0"
     const val activityKtx = "androidx.activity:activity-ktx:1.2.0-alpha04"
-    const val constraintlayout = "androidx.constraintlayout:constraintlayout:1.1.3"
     const val cardview = "androidx.cardview:cardview:1.0.0"
     const val multidex = "androidx.multidex:multidex:2.0.0"
     const val legacy = "androidx.legacy:legacy-support-v4:1.0.0"
@@ -44,6 +43,17 @@ object AndroidX {
         const val lcy_ext = "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
 
     }
+
+
+    val constraintlayout = Constraintlayout
+
+    object Constraintlayout {
+        private const val constraintlayout_version = "1.1.2"
+        const val constraint_layout = "androidx.constraintlayout:constraintlayout:$constraintlayout_version"
+        const val constraint_layoutSolver = "androidx.constraintlayout:constraintlayout-solver:$constraintlayout_version"
+
+    }
+
 
 
     val navigation = Navigation
