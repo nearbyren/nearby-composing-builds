@@ -18,10 +18,7 @@ object BuildPlugVersion {
  * 配置和 build相关的
  */
 object BuildVersion {
-    //时间：2017.2.13；每次修改版本号都要添加修改时间
-    //V1_1_2_161209_beta
-    //V主版本号_子版本号_阶段版本号_日期版本号_希腊字母版本号
-    //程序编译app时候用的sdk版本 建议最新
+
     const val compileSdkVersion = 29
 
     //规则是可以用高的构建工具来构建低版本Sdk的工程
@@ -121,7 +118,7 @@ object BuildVersion {
 /**
  * 项目相关配置
  */
-object BuildConfig {
+object BuildConfigs {
     //AndroidX
     const val appcompat = "androidx.appcompat:appcompat:1.2.0"
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:2.0.4"
