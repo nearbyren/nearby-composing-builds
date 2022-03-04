@@ -17,10 +17,6 @@ buildscript {
     }
 }
 
-repositories {
-    google()
-    mavenCentral()
-}
 
 //本地依赖插件时使用
 gradlePlugin {
